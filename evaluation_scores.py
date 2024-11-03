@@ -9,7 +9,7 @@ def evaluation_scores(gold, pred):
         A tuple or list containing the precision, recall, and F1 values
         (in that order), computed based on the specified sets.
     """
-    # YOUR CODE HERE
+
     
     TP = gold & pred
     FP = pred - gold
